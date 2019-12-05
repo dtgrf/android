@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="2dp"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+        <ImageView
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="7dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/favorite_status"
+            android:scaleType="fitXY"
+            android:src="@mipmap/favorite"
+            android:background="#00FF0000"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:id="@+id/music_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginLeft="4dp"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="1dp"
+            android:layout_marginTop="1dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/music_item_singer"
+            android:paddingLeft="1dp"
+            android:textSize="13sp"
+            android:layout_marginLeft="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            />
+        </LinearLayout>
+</LinearLayout>
